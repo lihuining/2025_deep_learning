@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T08:27:43.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="R1bin5w6otzWDs61HG7B" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T03:49:46.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eC6tNgtfoEI_HVy_Ac3D" version="24.4.4" type="github">
   <diagram id="YZio-O26FUupj93rdy87" name="第 1 页">
-    <mxGraphModel dx="2123" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="2123" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,19 +20,16 @@
           <mxGeometry x="227" y="165" width="113" height="46" as="geometry" />
         </mxCell>
         <mxCell id="nw_g5E8gjsMnzy5CdsyM-6" value="$$(b,320,w,h)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="108" y="179" width="130" height="30" as="geometry" />
+          <mxGeometry x="110" y="220" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UaPLBciqvXl2TGkY4V7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nw_g5E8gjsMnzy5CdsyM-8" target="nw_g5E8gjsMnzy5CdsyM-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nw_g5E8gjsMnzy5CdsyM-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px&quot;&gt;conv_out&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="740" y="165" width="113" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="nw_g5E8gjsMnzy5CdsyM-9" value="基础的Transformer块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="879" y="102" width="120" height="30" as="geometry" />
+          <mxGeometry x="717.5" y="165" width="113" height="46" as="geometry" />
         </mxCell>
         <mxCell id="nw_g5E8gjsMnzy5CdsyM-12" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px&quot;&gt;latent_out&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="743" y="87" width="113" height="46" as="geometry" />
+          <mxGeometry x="717.5" y="87" width="113" height="46" as="geometry" />
         </mxCell>
         <mxCell id="2UaPLBciqvXl2TGkY4V7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UaPLBciqvXl2TGkY4V7-2" target="2UaPLBciqvXl2TGkY4V7-3">
           <mxGeometry relative="1" as="geometry" />
@@ -125,10 +122,10 @@
           <mxGeometry x="844" y="103" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UaPLBciqvXl2TGkY4V7-45" value="$$(b,320,w,h)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="860" y="179" width="130" height="30" as="geometry" />
+          <mxGeometry x="844" y="220" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UaPLBciqvXl2TGkY4V7-47" value="$$\times T$$&amp;nbsp; &amp;nbsp; &amp;nbsp;Transformer_layers_per_block&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="525" y="816" width="330" height="30" as="geometry" />
+          <mxGeometry x="530" y="794" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UaPLBciqvXl2TGkY4V7-50" value="$$\times N$$&amp;nbsp; &amp;nbsp; &amp;nbsp;layers_per_block&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="315" y="700" width="240" height="30" as="geometry" />
@@ -145,11 +142,32 @@
         <mxCell id="2UaPLBciqvXl2TGkY4V7-56" value="$$(b,1280,w/8,h/8)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="290" y="520" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2UaPLBciqvXl2TGkY4V7-57" value="$$(b,1280,w/16,h/16)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="310" y="620" width="180" height="30" as="geometry" />
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-57" value="$$(b,1280,w/8,h/8)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="315" y="620" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2UaPLBciqvXl2TGkY4V7-58" value="&lt;ul&gt;&lt;li&gt;旁边shape表示该模块的形状大小&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-20" width="290" height="60" as="geometry" />
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-58" value="&lt;ul&gt;&lt;li&gt;旁边shape表示该模块的形状大小，其余表示沿着箭头方向经过该模块之后的大小&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;三次降采样，DownBlock2D实际上不进行降采样。&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-10" width="630" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-59" value="$$(b,1280,w/8,h/8)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="585" y="620" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-65" value="$$(b,1280,w/8,h/8)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="820" y="520" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-66" value="$$(b,640,w/4,h/4)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="820" y="430" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-67" value="$$(b,320,w/2,h/2)$$&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="820" y="330" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="760" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580.5" y="858" width="229.5" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="2UaPLBciqvXl2TGkY4V7-76" value="原始的 Transformer模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600.25" y="930" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
